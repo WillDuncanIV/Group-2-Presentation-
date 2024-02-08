@@ -1,0 +1,83 @@
+
+@font-face {
+    font-family: "racing";
+    src: url(fonts/Racing_Sans_One/RacingSansOne-Regular.ttf);
+}
+
+body{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , orange, #ffff00, green, blue, purple);
+    
+}
+
+h1{
+font-size: 50px;
+text-align: center;
+padding-bottom:30px;
+color: rgb(0, 0, 0);
+}
+
+    #container{
+      text-align: center;
+    }
+ul{
+margin: 0 auto;
+flex-wrap: wrap;
+list-style-type:none;
+
+}
+
+Ul li{
+    list-style: none;
+    margin: auto;
+    padding-bottom: 2rem;
+    padding-top:10rem;
+}
+
+ul li a{
+     color: rgb(0, 0, 0);
+     font-size: 60px;
+     cursor: pointer;
+     text-decoration: none;
+     padding: 2rem;
+     display: flex;
+}
+
+ul li a:hover{
+color: rgb(199, 199, 199);
+transition: .55s;
+}
+
+.hoverani{
+    display: inline-block;
+    position:relative;
+    color: #808080c7;
+  }
+.hoverani:after{
+    content: '';
+  position: absolute;
+  width: 85%;
+  transform: scaleX(0);
+  height: 6px;
+  bottom: 0;
+  left: 0;
+  background-color:#ce6300;
+  transition: transform 0.20s ease-in-out;
+}
+
+.hoverani:hover:after{
+    transform: scaleX(.7);
+}
+
+
+#bills{
+ float: left;
+ margin: 0px;
+width: 200px;
+}
+
+@media only screen and (max-width: 200px) {
+    #bills {
+      width: 90px;
+    }
+  }
