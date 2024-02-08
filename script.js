@@ -1,7 +1,10 @@
 const questions = [
-    { question: "What did Disco Demolition Night come to symbolize ", answer: "Divide between disco and rock" },
+    { question: "What did Disco Demolition Night come to symbolize? ", answer: "Divide between disco and rock" },
     { question: "Despite the diversity of disco, what group did scholarly narratives tend to universalize to disco?", answer: "the White gay experiences" },
-    { question: "What is the largest planet in our solar system?", answer: "Jupiter" }
+    { question: "What did Echols note about disco?", answer: "disco evolved social movements" }
+    { question: "Why were rent parties important for Black queer individuals?", answer: "it provided safety of privacy" }
+    { question: "What rapper mentioned made a song on a house inspired beat?", answer: "Queen Latifah" }
+    { question: "What rapper made fun of Young Thug for wearing a dress?", answer: "Nicki Minaj" }
     // Add more questions here
   ];
   
