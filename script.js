@@ -1,6 +1,6 @@
 const questions = [
-    { question: "What is the capital of France?", answer: "Paris" },
-    { question: "What is the color of the sky?", answer: "Blue" },
+    { question: "What did Disco Demolition Night come to symbolize ", answer: "Divide between disco and rock" },
+    { question: "Despite the diversity of disco, what group did scholarly narratives tend to universalize to disco?", answer: "the White gay experiences" },
     { question: "What is the largest planet in our solar system?", answer: "Jupiter" }
     // Add more questions here
   ];
